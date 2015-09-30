@@ -1,4 +1,66 @@
-.container{
- background: url(images/backg.jpg);
- margin: auto;
+body{
+ background: url(images/backg.jpeg);
+ background-image: cover;
+}
+
+h3{
+	font-size: 5em;
+	color: darkorange;
+	-webkit-text-stroke: 1px darkblue;
+	text-shadow:
+       3px 3px 0 darkblue,
+     -1px -1px 0 darkblue,  
+      1px -1px 0 darkblue,
+      -1px 1px 0 darkblue,
+       1px 1px 0 darkblue;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+}
+
+.input{
+	margin-top: 80px;
+	text-align: center;
+	font-size: 40px;
+}
+
+#num_one{
+	width: 20%;
+	height: 60px;
+	background-color: darkblue;
+	font-size: 30px;
+	text-align: center;
+	color: darkorange;
+	font-weight: bold;
+}
+
+#num_two{
+	width: 20%;
+	height: 60px;
+	background-color: darkblue;
+	font-size: 30px;
+	text-align: center;
+	color: darkorange;
+	font-weight: bold;
+}
+
+#calculateBtn{
+	background-color: darkorange;
+	color: darkblue;
+	height: 80px;
+	width: 100px;
+	font-size: 18px;
+}
+
+.answer{
+	font-size: 50px;
+	color: darkblue;
+	-webkit-text-stroke: 1px darkorange;
+	text-shadow:
+       3px 3px 0 darkorange,
+     -1px -1px 0 darkblue,  
+      1px -1px 0 darkblue,
+      -1px 1px 0 darkorange,
+       1px 1px 0 darkorange;
+	font-weight: bold;
 }
